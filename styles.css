@@ -1,0 +1,524 @@
+.desktop {
+    width: 100%;
+    margin: 0;
+    background-color: #ffffff;
+  }
+
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: linear-gradient(294deg, #8c593b 0%, #986544 100%);
+    overflow: hidden;
+  }
+
+  .bona{
+    white-space: pre;
+    color: #d9d6d2;
+    line-height: 1.2;
+    margin: 16px 0;
+    margin-left: 30px;
+  }
+  label{
+    display: none;
+  }
+  .frame {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 411px;
+    height: 37px;
+    box-shadow: 0px 5px 10px 0px #8e5b3d;
+    background-color: #d9d6d2;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-left: 278px;
+    margin-top: 16px;
+    align-items: center;
+  }
+  .frame > i {
+    font-size: 30px;
+    color:rgb(141, 90, 60);
+    padding: 16px;
+  }
+  .frame > input{
+    flex: 1;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: #d9d6d2;
+    margin-left: 15px;
+  }
+  ::placeholder {
+    white-space: pre;
+    font-family: "Inter", sans-serif;
+    color: #777777;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    padding: 0;
+  }
+  .round {
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    background-image: url(/images/shallow\ focus\ photo\ of\ man.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px;
+    border: 5px solid #e3e3e3;
+    margin-top: 4px;
+    margin-left: 400px;
+  }
+
+
+  .navigation {
+    width: 176px;
+    height: 1339px;
+    background-color: rgba(153, 153, 153, 0.27);
+    overflow: hidden;
+  }
+  .list{
+    list-style: none;
+    padding-left: 0;
+  }
+  .frame1 {
+    margin: 31px auto;
+    padding-left: 30px;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(191, 138, 107, 0.5);
+    overflow: hidden;
+  }
+  .home {
+    white-space: pre;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Battambang", serif;
+    color: #593a28;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 2.2;
+  }
+  .explore {
+    white-space: pre;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Battambang", serif;
+    color: #593a28;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 2.2;
+  }
+  .about-us {
+    white-space: pre;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Battambang", serif;
+    color: #593a28;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 2.2;
+  }
+
+  section.first{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 101px;
+    left: 192px;
+  }
+  .frame2 {
+    width: 350px;
+    height: 241px;
+    background: linear-gradient(129deg, rgba(186, 137, 95, 0.2) 0%, rgba(146, 95, 64, 0.5) 100%);
+    overflow: hidden;
+    margin-right: 15px;
+    border-radius: 25px;
+  }
+  .frame2 img{
+    width: 100%;
+    height: 100%;
+  }
+  .frame3 {
+    width: 350px;
+    height: 48px;
+    z-index: 1;
+    background-color: rgba(140, 89, 59, 0.8);
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 172px;
+    border-end-end-radius: 25px;
+    border-end-start-radius: 25px;
+  }
+  .frame4 {
+    width: 128px;
+    height: 38px;
+    background-color: #d9d6d2;
+    overflow: hidden;
+    border-radius: 10px 0px 0px 0px;
+    position: absolute;
+    top: 138px;
+    margin-left: 222px;
+  }
+  .ghs {
+    white-space: pre;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Battambang", serif;
+    color: #593a28;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 2.5;
+    text-align: center;
+  }
+  .kingComfitiView {
+    z-index: 1;
+    white-space: pre;
+    line-height: 2.0;
+    color: #d9d6d2;
+  }
+  .ransahHill {
+    white-space: pre;
+    line-height: 2.0;
+    color: #d9d6d2;
+  }
+  .zonalRidge{
+    white-space: pre;
+    line-height: 2.0;
+    color: #d9d6d2;
+  }
+
+  section.second{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 395px;
+    left: 192px;
+  }
+  .frame5 {
+    width: 714px;
+    height: 404px;
+    background: linear-gradient(129deg, rgba(186, 137, 95, 0.2) 0%, rgba(146, 95, 64, 0.5) 100%);
+    overflow: hidden;
+    border-radius: 30px;
+  }
+  .frame5 img{
+    width: 100%;
+    height: 100%;
+  }
+  .frame6 {
+    width: 714px;
+    height: 89px;
+    background-color: rgba(140, 89, 59, 0.85);
+    overflow: hidden;
+    position: absolute;
+    top: 295px;
+    border-end-end-radius: 25px;
+    border-end-start-radius: 25px;
+  }
+  .kbq {
+    /* width: auto; 459px
+    height: auto; 42px */
+    white-space: pre;
+    line-height: 3.5;
+    color: #d9d6d2;
+    text-align: center;
+  }
+  .frame7 {
+    width: 350px;
+    height: 404px;
+    overflow: hidden;
+    background-image: url(images/name\ and\ location.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px;
+    margin-left: 16px;
+  }
+  .frame8 {
+    width: 350px;
+    height: 156px;
+    background-color: rgba(89, 58, 40, 0.89);
+    overflow: hidden;
+    text-align: center;
+    position: absolute;
+    top: 248px;
+    border-end-end-radius: 25px;
+    border-end-start-radius: 25px;
+    color: #d9d6d2;
+  }
+
+  .frame9 {
+    width: 128px;
+    height: 45px;
+    background-color: #d9d6d2;
+    overflow: hidden;
+    border-radius: 0px 25px 0px 0px;
+    margin: 0 222px;
+    text-align: center;
+  }
+  .ghs1 {
+    /* width: auto; 106px
+    height: auto; 20px */
+    white-space: pre;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Battambang", serif;
+    color: #593a28;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 3.0;
+  }
+
+  .review{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 839px;
+    left: 192px;
+  }
+  .agent {
+    display: flex;
+    width: 311px;
+    height: 202px;
+    box-shadow: 5px 8px 10px 0px #e3e3e3;
+    background-color: rgba(227, 227, 227, 0.26);
+    overflow: hidden;
+    border-radius: 30px;
+    margin-bottom: 44px;
+    margin-right: 212px;
+  }
+  .agentImage {
+    box-sizing: border-box;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    background-image: url(images/me.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 35px;
+    border: 5px solid #bf8e63;
+    margin-left: 15px;
+    margin-top: 22px;
+    margin-right: 35px;
+  }
+  .agentImage1 {
+    box-sizing: border-box;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    background-image: url(images/gloria.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 35px;
+    border: 5px solid #bf8e63;
+    margin-left: 15px;
+    margin-top: 22px;
+    margin-right: 35px;
+  }
+  .agentStyle{
+    justify-content: space-between;
+  }
+  .info{
+    margin-top: 13px;
+  }
+  .agentName {
+    white-space: pre;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Battambang", serif;
+    color: #777777;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 0.5;
+  }
+  .agentNumber {
+    white-space: pre;
+    font-style: italic;
+    font-family: "Inter-Italic", sans-serif;
+    color: #936041;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 0.5;
+    margin-top: 20px;
+  }
+  .agentRating {
+    white-space: pre;
+    font-family: "Inter", sans-serif;
+    color: #555555;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 0.5;
+  }
+  .rate{
+    display: flex;
+    margin-top: -11px;
+  }
+  .rate > i {
+    font-size: 16px;
+    color: rgb(151, 101, 68);
+    margin-top: 10px;
+    margin-right: 8px;
+  }
+  .divider {
+    width: 265px;
+    height: 1px;
+    background-color: #dddddd;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -126px;
+    margin-left: 18px;
+  }
+  .explain {
+    white-space: pre;
+    font-family: "Inter", sans-serif;
+    color: #555555;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    position: absolute;
+    margin-top: -137px;
+    margin-left: 17px;
+  }
+  .agent1 {
+    width: 554px;
+    height: 447px;
+    box-shadow: 5px 8px 10px 0px #e3e3e3;
+    background-color: rgba(227, 227, 227, 0.26);
+    overflow: hidden;
+  }
+  .lorem{
+    white-space: pre;
+    color: #555555;
+    line-height: 1.2;
+    margin-top: 45px;
+    margin-left: 32px;
+    font-size: 19px;
+  }
+  .firstDivide {
+    width: 505px;
+    height: 1px;
+    background-color: #dddddd;
+    overflow: hidden;
+    position: absolute;
+    margin-left: 556px;
+    margin-top: 178px;
+  }
+  .arrangement{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 160px;
+  }
+  .list1 {
+    white-space: pre;
+    font-family: "Inter", sans-serif;
+    color: #555555;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    margin-left: 556px;
+    list-style: none;
+    padding-left: 0;
+  }
+  .secondList{
+    margin-left: 102px;
+  }
+  .nextDivider {
+    width: 505px;
+    height: 1px;
+    background-color: #dddddd;
+    overflow: hidden;
+    position: absolute;
+    margin-left: 556px;
+    margin-top: 384px;
+  }
+  .comment {
+    white-space: pre;
+    font-family: "Inter", sans-serif;
+    color: #555555;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    margin-left: -524px;
+    margin-top: 413px;
+  }
+
+  .peopleImgArrangement{
+    position: absolute;
+    display: flex;
+    margin-left: -165px;
+    margin-top: -57px;
+  }
+  .peopleImg1 {
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    aspect-ratio: 1 / 1;
+    background-image: url(images/boy\ s\ face\ close-up\ photography.jpg\ .webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+  }
+  .peopleImg2 {
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    background-image: url(images/man\ wearing\ black\ crew-neck\ shirt.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+    border: 4px solid #f8f8f8;
+    margin-left: -17px;
+  }
+  .peopleImg {
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    background-image: url(images/woman\ in\ white\ crew\ neck\ shirt.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+    border: 4px solid #f8f8f8;
+    margin-left: -17px;
+  }
+  .peopleImg3 {
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    background-image: url(images/black\ girl.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+    border: 4px solid #f8f8f8;
+    margin-left: -17px;
+  }
+
+  .footer {
+    width: 100%;
+    height: 82px;
+    background: linear-gradient(142deg, #8c593b 0%, #bf8a6b 100%);
+    overflow: hidden;
+  }
+  .bona2022 {
+    width: auto; /* 157px */
+    height: auto; /* 33px */
+    white-space: pre;
+    line-height: 1.2;
+    text-align: center;
+    color: #d9d6d2;
+  }
